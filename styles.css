@@ -1,2 +1,18 @@
+/* Ensure the holder takes up the full viewport */
+.holder {
+  display: flex;              /* Enable flexbox */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  width: 100vw;                /* Full viewport width */
+  height: 100vh;               /* Full viewport height */
+  margin: 0;                   /* Remove any default margin */
+  padding: 0;                  /* Remove any default padding */
+  box-sizing: border-box;      /* Include padding and border in element's total width/height */
+}
 
-/* Your CSS Code here. */
+/* Style the item-1 */
+.item-1 {
+  width: 100px;                /* Set the width */
+  height: 100px;               /* Set the height */
+  background-color: red;       /* Set the background color */
+}
